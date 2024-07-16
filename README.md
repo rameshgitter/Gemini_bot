@@ -4,6 +4,10 @@
 
 This repository contains the code for a Gemini-based AI chatbot using Flask for the web interface. The project structure is organized to separate the backend logic, frontend assets, and configuration files for deployment on Vercel.
 
+### Welcome Page
+![Welcome Page](MediChat.png)
+
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
