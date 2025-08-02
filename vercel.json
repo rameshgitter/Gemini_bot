@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/index.py",
+      "src": "api/chat.py",
       "use": "@vercel/python",
       "config": {
         "runtime": "python3.10"
@@ -11,8 +11,8 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/index.py"
+      "src": "/api/chat",
+      "dest": "/api/chat.py"
     },
     {
       "src": "/static/(.*)",
@@ -20,7 +20,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/api/index.py"
+      "dest": "/public/index.html"
     }
   ]
 }
